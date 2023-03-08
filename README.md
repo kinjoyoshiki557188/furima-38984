@@ -68,3 +68,16 @@ has_one :payment
 Association
 
 belongs_to :order
+
+## comments テーブル
+
+| Column         | Type       | Options                        |
+| -------------- | ---------- | ------------------------------ |
+| user           | references | null: false, foreign_key: true |
+| item           | references | null: false, foreign_key: true |
+| text           | text       | null: false                    |
+
+Association
+
+belongs_to :user
+belongs_to :item
