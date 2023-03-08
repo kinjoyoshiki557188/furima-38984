@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="g_IFlAvsb_XbCkQ5jT0p" name="ページ1">
-        <mxGraphModel dx="1096" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="984" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -93,8 +93,8 @@
                 <mxCell id="275" value="paymentsテーブル" style="swimlane;rounded=1;" vertex="1" parent="1">
                     <mxGeometry x="40" y="520" width="200" height="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="276" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: -webkit-left; background-color: rgb(255, 255, 255);&quot;&gt;orders&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="275">
-                    <mxGeometry y="30" width="70" height="30" as="geometry"/>
+                <mxCell id="276" value="&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: -webkit-left; background-color: rgb(255, 255, 255);&quot;&gt;order&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="275">
+                    <mxGeometry x="5" y="30" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="277" value="&lt;table style=&quot;border-spacing: 0px; border-collapse: collapse; margin-top: 0px; margin-bottom: 16px; display: block; width: max-content; max-width: 100%; overflow: auto; color: rgb(36, 41, 47); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: var(--color-canvas-subtle); border-top: 1px solid var(--color-border-muted);&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid var(--color-border-default);&quot; align=&quot;left&quot;&gt;postcode&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="275">
                     <mxGeometry x="-5" y="60" width="120" height="60" as="geometry"/>
