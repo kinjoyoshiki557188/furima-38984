@@ -24,7 +24,7 @@ class ItemsController < ApplicationController
   end
 
    def edit
-      if @item.user_id == current_user.id
+      if @item.user_id == current_user.id && @item.order.nil?
      else
         redirect_to root_path
      end
@@ -32,8 +32,10 @@ class ItemsController < ApplicationController
 
    def update
     @item.update(item_params)
-    if @item.valid?
-      redirect_to item_path(item_params)
+    if @item.user_id == current_user.id
+       @item.valid?
+       redirect_to item_path(item_params)
+
      else
       render 'edit'
      end
