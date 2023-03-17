@@ -3,7 +3,7 @@ RSpec.describe User, type: :model do
   before do
     @user = FactoryBot.build(:user)
   end
-
+ sleep (0.1)
   describe 'ユーザー新規登録' do
     context '新規登録がうまくいくとき' do
       it '全ての入力事項が、存在すれば登録できる' do
