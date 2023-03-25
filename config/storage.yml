@@ -9,7 +9,7 @@ local:
 amazon:
  service: S3
  region: ap-northeast-1
- bucket: furima38984
+ bucket: furima557188
  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
  secret_access_key:  <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 #   bucket: your_own_bucket
